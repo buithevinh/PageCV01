@@ -2,14 +2,10 @@
 <html>
 <head>
 <script src = "https://content.jwplatform.com/libraries/gi5iG4uy.js">
+	
 </script>
-	<style type="text/css">#cccvideo{width: 100%;}</style>
-</head>	
-<body>
-
-	<div id = "cccvideo"> </div>
-<script >
-	function createCORSRequest(method, url) {
+	<script >
+		function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
   if ("withCredentials" in xhr) {
     // XHR for Chrome/Firefox/Opera/Safari.
@@ -54,6 +50,14 @@ function makeCorsRequest() {
 
   xhr.send();
 }
+	</script>
+	<style type="text/css">#cccvideo{width: 100%;}</style>
+</head>	
+<body>
+
+	<div id = "cccvideo"> </div>
+<script >
+
 jwplayer('cccvideo').setup({
 			height: 360,
 			stretching: 'uniform',
